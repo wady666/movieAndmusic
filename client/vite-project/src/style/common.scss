@@ -1,0 +1,41 @@
+._flex {
+  display: flex;
+  &._f-x {
+    flex-direction: row;
+  }
+  &._f-y {
+    flex-direction: column;
+  }
+  &._f-align-center {
+    align-items: center;
+  }
+  &._f-justify-center {
+    justify-content: center;
+  }
+  &._f-justify-between {
+    justify-content: space-between;
+  }
+  &._f-justify-around {
+    justify-content: space-around;
+  }
+  &._f-center {
+    align-items: center;
+    justify-content: center;
+  }
+  &._f-wrap {
+    flex-wrap: wrap;
+  }
+  &._f-no-wrap {
+    flex-wrap: nowrap;
+  }
+}
+.flex-1 {
+  flex: 1;
+}
+// 文字hover样式
+.text-hover {
+  &:hover{
+    cursor: pointer;
+    color: red;
+  }
+}
